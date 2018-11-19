@@ -11,12 +11,12 @@
       <tbody>
         <tr>
           <td style="vertical-align: top;" align="center"><img
-              alt="Kristen Grauman" src="grauman.jpg" width="199"
+              alt="Guangqi,Liu" src="grauman.jpg" width="199"
               height="275"><br>
           </td>
           <td style="vertical-align: top;">
             <p style="font-family: Arial;" class="MsoNormal"><b style=""><span
-                  style="font-size: 14pt;">Kristen Grauman<o:p></o:p></span></b><o:p>
+                  style="font-size: 14pt;">Guangqi,Liu<o:p></o:p></span></b><o:p>
                 <br>
                 <br>
               </o:p></p>

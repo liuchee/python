@@ -1,37 +1,57 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello Kay !</title>
+    <link href="favicon.ico" mce_href="favicon.ico" rel="bookmark" type="image/x-icon" /> 
+	<link href="favicon.ico" mce_href="favicon.ico" rel="icon" type="image/x-icon" /> 
+	<link href="favicon.ico" mce_href="favicon.ico" rel="shortcut icon" type="image/x-icon" />  
+	<link href="animated_favicon.gif" rel="icon" type="image/gif" >
+    <link rel="stylesheet" type="text/css" href="css/main.css"/>
+    <script type="text/javascript" src="js/music.js"></script>
+</head>
 
-You can use the [editor on GitHub](https://github.com/liuchee/python/edit/gh-pages/README.md) to maintain and preview the content for your website in Markdown files.
+<body>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<!-- 添加背景音乐 -->
+<div class="musicDiv">
+       <audio id="music" src="http://sc1.111ttt.com/2016/1/12/10/205100120121.mp3" autoplay="autoplay" loop="loop"></audio>
+</div>
 
-### Markdown
+<!-- 正文 -->
+<div class="content">
+    <!-- 头像 -->
+     <a class="avatar" id="aTitle" href="#" title="暂停音乐" onclick="playPause()">
+        <img src="images/head02.jpg" alt="头像" >
+    </a>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+    <!-- 文字简介 -->
+    <div class="username">Mister Kay</div>
+    <div class="desc">前端开发 移动端开发 新媒体运营</div>
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/liuchee/python/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+    <!-- 外部链接 -->
+    <div class="social">
+        <a title="主页" href="https://github.com/fifteen718" target="_blank">
+            <span class="iconfont icon-home"></span>
+        </a>
+        <a title="博客" href="http://blog.csdn.net/fifteen718" target="_blank">
+            <span class="iconfont icon-blog"></span>
+        </a>
+        <a title="微博" href="http://weibo.com/yekaikai" target="_blank">
+            <span class="iconfont icon-weibo"></span>
+        </a>
+        <a title="摄影" href="html/photo.html" target="_blank">
+            <span class="iconfont icon-photo"></span>
+        </a>
+    </div>
+</div>
+<img src="images/timg.gif" id="im" alt="" style="position: absolute;width: 66px;"/>
+<script type="text/javascript">
+    var imobj = document.getElementById("im");
+    document.onmousemove = function (e) {
+        imobj.style.left = e.clientX + 25 + "px";
+        imobj.style.top = e.clientY + "px";
+    }
+</script>
+</body>
+</html>
